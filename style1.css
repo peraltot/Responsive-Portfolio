@@ -1,0 +1,271 @@
+footer {
+	clear: both;
+	padding: 20px;
+	margin-top: 0px;
+	color: #D8D4D4;
+	background: #838181;
+	text-align: center;
+}
+
+body {
+	/* clear: both; */
+	height: 100%;
+	margin-top: 5%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+	margin-left: 15%;
+	/* padding: 10%; */
+	/* margin-top: 10px; */
+	background: rgba(131, 129, 129, 0.18);
+}
+
+#line {
+	clear: both;
+	margin-top: 5px;
+	color: #0928D8;
+	text-align: center;
+	width: 100%;
+	height: 5px;
+	background: #0928D8;
+}
+
+#line_top {
+	clear: both;
+	margin-bottom: 20px;
+	color: #0928D8;
+	text-align: center;
+	width: 100%;
+	height: 2px;
+	background: #0928D8;
+}
+
+#line_box {
+	/* clear: both; */
+	/* margin-top: 1px; */
+	margin-left: 20%;
+	margin-right: 30%;
+	color: #0928D8;
+	/* text-align: center; */
+	width: 40%;
+	height: 2px;
+	background: #0928D8;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+	background-color: #ffffff;
+	/* width: 200px; */
+	float: right;
+	text-align: center;
+	font-family: times;
+	font-size: 20px;
+	color: #4aaaa5;
+}
+
+li {
+	float: left;
+	color: #4aaaa5;
+	text-align: center;
+}
+
+l {
+	float: left;
+	margin-left: 20%;
+	list-style-type: none;
+	background: #4aaaa5;
+	height: 50px;
+	width: 10%;
+	text-align: center;
+	font-family: times;
+	font-size: 22px;
+	color: #E5E9E9;
+	font-weight: bolder;
+}
+
+r {
+	float: right;
+	margin-right: 5%;
+	margin-top: 1%;
+	list-style-type: none;
+	text-align: center;
+	font-family: times;
+	font-size: 24px;
+	color: #4aaaa5;
+}
+
+li a {
+	display: inline-block;
+	color: #4aaaa5;
+	font-family: times;
+	font-size: 24px;
+	text-align: center;
+	padding: 1px 1px;
+	/* text-decoration: none; */
+	margin-bottom: 5px;
+}
+
+p {
+	font-size: 16px;
+	font-family: Arial;
+	color: #777777;
+	word-wrap: normal;
+}
+
+#col-left {
+	float: clear;
+	width: 40%;
+	height: 180px;
+	padding: 12px;
+}
+
+#col-right-contact {
+	text-align: middle;
+	font-family: Arial;
+	float: left;
+	margin-left: 5px;
+	width: 55%;
+	height: 30px;
+	padding: 5px;
+	/* background: #636161; */
+}
+
+#col-pic {
+	float: left;
+	width: 30%;
+	height: 160px;
+	padding: 10px;
+	margin-top: 0;
+	margin-left: 0%;
+	/* background: #636161; */
+}
+
+#section {
+	padding: 10px;
+}
+
+#boxes {
+	background: #ffffff;
+	padding: 20px;
+	box-sizing: border-box;
+	border-style: #cccccc;
+	margin-left: 20%;
+	/* margin-right: 40%; */
+	width: 40%;
+	text-align: left;
+	font-family: times;
+	font-size: 24px;
+	color: #4aaaa5;
+}
+
+#boxes_r1 {
+	position: relative;
+    right: -600px;
+	top: -435px;
+	background: #ffffff;
+	/* padding: 20px; */
+	/* box-sizing: border-box; */
+	/* border-style: #cccccc; */
+	/* margin-left: 20%; */
+	/* margin-right: 40%; */
+	width: 280px;
+	text-align: left;
+	font-family: times;
+	font-size: 24px;
+	color: #4aaaa5;
+}
+
+#boxes_r2 {
+	position: relative;
+    right: -670px;
+	top: -530px;
+	background: #ffffff;
+	/* padding: 20px; */
+	/* box-sizing: border-box; */
+	/* border-style: #cccccc; */
+	/* margin-left: 20%; */
+	/* margin-right: 40%; */
+	width: 280px;
+	text-align: left;
+	font-family: times;
+	font-size: 24px;
+	color: #4aaaa5;
+}
+
+#boxes_r3 {
+	position: relative;
+    right: -600px;
+	top: -530px;
+	background: #ffffff;
+	/* padding: 20px; */
+	/* box-sizing: border-box; */
+	/* border-style: #cccccc; */
+	/* margin-left: 20%; */
+	/* margin-right: 40%; */
+	width: 280px;
+	text-align: left;
+	font-family: times;
+	font-size: 24px;
+	color: #4aaaa5;
+}
+
+
+
+#my_contact {
+	background: #ffffff;
+	padding: 10px;
+	box-sizing: border-box;
+	border-style: #cccccc;
+}
+
+#mess {
+	height: 173px;
+	/* width: 520px; */
+	width: 120%;
+	font-family: Arial;
+	color: #777777;
+	font-size: 16px;
+}
+
+#mess_2 {
+	height: 20px;
+	/* width: 520px; */
+	width: 120%;
+	font-family: Arial;
+	color: #777777;
+	font-size: 16px;
+}
+
+form {
+	width: 80%;
+}
+
+#banner {
+	width: 100%;
+	height: 50px;
+	background: #ffffff;
+	/* margin-right: 10px; */
+	/* margin-bottom: 10px;*/
+}
+
+@media screen and (max-width: 720px) {
+	/* The body's bg color will be #333 */
+	body {
+	width:720px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	/* The body's bg color will be #333 */
+	body {
+		width:640px;
+	}
+	#banner {
+		position: fixed;
+	}
+
+}
+	/* The wrapper's width will be 600px */
+	
