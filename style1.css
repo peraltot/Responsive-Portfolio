@@ -248,7 +248,7 @@
 		/* margin-bottom: 10px;*/
 	}
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 1600px) {
 		/* The body's bg color will be #333 */
 		body {
 			width: 980px;
