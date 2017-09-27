@@ -99,6 +99,7 @@
 		font-family: times;
 		font-size: 24px;
 		color: #4aaaa5;
+		text-decoration: none;
 	}
 
 	li a {
@@ -185,8 +186,6 @@
 
 	#boxes_r1 {
 		background: #ffffff;
-		position: relative;
-		right: 25%;
 		/* padding: 20px; */
 		/* box-sizing: border-box; */
 		/* border-style: #cccccc; */
@@ -201,8 +200,6 @@
 
 	#boxes_r2 {
 		background: #ffffff;
-		position: relative;
-		right: 25%;
 		/* padding: 20px; */
 		/* box-sizing: border-box; */
 		/* border-style: #cccccc; */
@@ -252,29 +249,29 @@
 		/* margin-bottom: 10px;*/
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1500px) {
 		/* The body's bg color will be #333 */
-		/* body {
+		body {
 			width: 980px;
-		} */
+		}
 		#boxes_p {
 			width: 50%;
 		}
 		#boxes_r1 {
 			position: relative;
-			right: 15%;
+			right: 25%;
 		}
 		#boxes_r2 {
 			position: relative;
-			right: 15%;
+			right: 25%;
 		}
 	}
 
-	@media screen and (max-width: 720px) {
+	@media screen and (max-width: 900px) {
 		/* The body's bg color will be #333 */
-		/* body {
+		body {
 			width: 720px;
-		} */
+		}
 		#boxes_p {
 			width: 90%;
 		}
@@ -292,17 +289,17 @@
 		}
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 740px) {
 		/* The body's bg color will be #333 */
-		/* body {
+		body {
 			width: 640px;
-		} */
+		}
 		#banner {
 			position: fixed;
 		}
 
 		#boxes_p {
-			width: 60%;
+			width: 50%;
 			margin-top: 15%;
 		}
 
@@ -312,19 +309,16 @@
 
 		#boxes_r1 {
 			position: absolute;
-			right: 40%;
+			right: 50%;
 			padding: 10px;
 			bottom: -25%;
 		}
 
 		#boxes_r2 {
 			position: absolute;
-			right: 40%;
+			right: 50%;
 			padding: 10px;
 			bottom: -135%;
-        }
-        .l {
-            width: 20%;
-        }
+		}
 	}
 	/* The wrapper's width will be 600px */
