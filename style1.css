@@ -215,6 +215,22 @@
 		color: #4aaaa5;
 	}
 
+	#boxes_r3 {
+		background: #ffffff;
+		position: relative;
+		right: 25%;
+		/* padding: 20px; */
+		/* box-sizing: border-box; */
+		/* border-style: #cccccc; */
+		/* margin-left: 20%; */
+		/* margin-right: 40%; */
+		/* width: 280px; */
+		text-align: center;
+		font-family: times;
+		font-size: 24px;
+		color: #4aaaa5;
+	}
+
 	#my_contact {
 		background: #ffffff;
 		padding: 10px;
@@ -268,9 +284,29 @@
 			position: relative;
 			right: 15%;
 		}
+		#boxes_r3 {
+			position: relative;
+			right: 15%;
+		}
+		#mess {
+			height: 173px;
+			/* width: 520px; */
+			width: 240%;
+			font-family: Arial;
+			color: #777777;
+			font-size: 16px;
+		}
+		#mess_2 {
+			height: 20px;
+			/* width: 520px; */
+			width: 240%;
+			font-family: Arial;
+			color: #777777;
+			font-size: 16px;
+		}
 	}
 
-	@media screen and (max-width: 720px) {
+	@media screen and (max-width: 768px) {
 		/* The body's bg color will be #333 */
 		/* body {
 			width: 720px;
@@ -278,21 +314,56 @@
 		#boxes_p {
 			width: 80%;
 		}
+		#boxes {
+			width: 80%;
+		}
 		#boxes_r1 {
 			position: absolute;
-			right: 40%;
+			right: 65%;
 			padding: 10px;
-			bottom: -15%;
+			bottom: -40%;
 		}
 		#boxes_r2 {
 			position: absolute;
-			right: 50%;
+			right: 65%;
 			padding: 10px;
-			bottom: -55%;
+			bottom: -60%;
+		}
+		#boxes_r3 {
+			position: absolute;
+			right: 65%;
+			padding: 10px;
+			bottom: -5%;
+		}
+		#mess {
+			width: 150%;
+		}
+		#mess_2 {
+			width: 150%;
+		}
+		footer {
+			/* clear: both; */
+			color: #D8D4D4;
+			width: 100%;
+			padding: 10px;
+			height: 10%;
+			background: #838181;
+			font-size: 20px;
+			text-align: center;
+			/* margin-bottom: 2%; */
+		}
+		#line {
+			clear: both;
+			margin-top: 150px;
+			color: #0928D8;
+			text-align: center;
+			width: 100%;
+			height: 5px;
+			background: #0928D8;
 		}
 	}
 
-	@media screen and (max-width: 620px) {
+	@media screen and (max-width: 640px) {
 		/* The body's bg color will be #333 */
 		/* body {
 			width: 640px;
@@ -300,54 +371,53 @@
 		#banner {
 			position: fixed;
 		}
-
 		#boxes_p {
 			width: 60%;
 			margin-top: 15%;
 		}
-
 		#boxes {
 			margin-top: 15%;
 		}
-
 		#boxes_r1 {
 			position: absolute;
-			right: 30%;
+			right: 10%;
 			padding: 10px;
 			bottom: -15%;
 		}
-
 		#boxes_r2 {
 			position: absolute;
-			right: 30%;
+			right: 10%;
 			padding: 10px;
 			bottom: -125%;
-        }
-
-        .l {
-            width: 20%;
-        }
-
-        footer {
-            /* clear: both; */
-            color: #D8D4D4;
-            width: 100%;
-            padding: 10px;
-            height: 10%;
-            background: #838181;
-            font-size: 20px;
-            text-align: center;
-            /* margin-bottom: 2%; */
-        }
-
-        #line {
-            clear: both;
-            margin-top: 150px;
-            color: #0928D8;
-            text-align: center;
-            width: 100%;
-            height: 5px;
-            background: #0928D8;
-        }
+		}
+		#boxes_r3 {
+			position: absolute;
+			right: 10%;
+			padding: 10px;
+			bottom: -15%;
+		}
+		.l {
+			width: 20%;
+		}
+		footer {
+			/* clear: both; */
+			color: #D8D4D4;
+			width: 100%;
+			padding: 10px;
+			height: 10%;
+			background: #838181;
+			font-size: 20px;
+			text-align: center;
+			/* margin-bottom: 2%; */
+		}
+		#line {
+			clear: both;
+			margin-top: 150px;
+			color: #0928D8;
+			text-align: center;
+			width: 100%;
+			height: 5px;
+			background: #0928D8;
+		}
 	}
 	/* The wrapper's width will be 600px */
